@@ -10,6 +10,7 @@
   padding: 0;
 }
 
+
 html, body { height: 100%; }
 
 body {
@@ -108,7 +109,9 @@ ul.posts span {
   float: left;
 }
 
-
+.navbar {
+   background-color: #F78D3F;
+}
 .site .footer {
   font-size: 80%;
   color: #666;
