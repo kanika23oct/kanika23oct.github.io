@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">    
+<head> 
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
@@ -14,24 +14,25 @@
         <link rel="stylesheet" href="/css/bootstrap.css">
         
         <!-- Custom Stylesheet -->
-        <link rel="stylesheet" href="/css/main.css">
-
-
-    </head>
+	<link rel="stylesheet" href="/css/main.css">
+</head>
     <body>
 
         <div class="container">
           <div class="site">
             <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">Home</a>
-	      <a class="extra" href="/">About Me</a>
-              <a class="extra" href="/">Work</a>
-              <a class="extra" href="/contact.html">Contact Me</a>
+              <h3 class="title"><a href="/">{{ site.name }}</a></h3>
+              <div class="navbar">
+                <ul class="nav navbar-nav"> 
+	          <a class="active" href="/">Home</a>
+                  <a  href="/">About Me</a>
+                  <a  href="/">Work</a>
+                  <a  href="contact.html">Contact</a>
+                </ul>
+             </div>
             </div>
 
-                {{ content }}
-            <div class="info">
+          <div class="info">
               <div class="contact">
                 <p>
                   My Name<br />
@@ -50,6 +51,7 @@
                 </p>
               </div>
             </div>
+          
           </div>
         </div> <!-- /container -->
 
