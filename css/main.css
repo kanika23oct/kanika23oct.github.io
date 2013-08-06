@@ -71,12 +71,19 @@ img {
     height: auto;
   }
 
+.img-portfolio{
+float: right 
+}
+
 .jumbotron {
   background-color: #E8EDE0;
 }
+
 pre {
   background-color: #E8EDE0;
+  float: left;
 }
+
 .site .header a {
   font-weight: bold;
   text-decoration: none;
