@@ -14,7 +14,7 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FCD271;
+  background-color: #F4D6BC;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -70,6 +70,13 @@ img {
     max-height: 50% ;
     height: auto;
   }
+
+.jumbotron {
+  background-color: #E8EDE0;
+}
+pre {
+  background-color: #E8EDE0;
+}
 .site .header a {
   font-weight: bold;
   text-decoration: none;
@@ -110,7 +117,7 @@ img {
 }
 
 .navbar {
-   background-color: #F78D3F;
+   background-color: #8FBCDB;
 }
 .site .footer {
   font-size: 80%;
